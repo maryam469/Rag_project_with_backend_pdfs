@@ -1,0 +1,25 @@
+# --- Streamlit and Core Dependencies ---
+streamlit==1.39.0
+python-dotenv==1.0.1
+
+# --- NLP & ML Dependencies ---
+sentence-transformers==3.0.1
+scikit-learn==1.5.1
+transformers==4.44.2
+faiss-cpu==1.8.0
+
+# --- PDF Handling ---
+PyPDF2==3.0.1
+pypdf==4.3.1
+
+# --- PyTorch (CPU-only build, no fbgemm.dll error) ---
+torch==2.3.1+cpu
+torchvision==0.18.1+cpu
+torchaudio==2.3.1+cpu
+--find-links https://download.pytorch.org/whl/torch_stable.html
+
+# --- LangChain & Groq Integration ---
+langchain==0.2.14
+langchain-core==0.2.35
+langchain-community==0.2.12
+langchain-groq==0.1.5
